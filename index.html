@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style/styles.css">
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <script defer src="https://unpkg.com/scrollreveal"></script>
+        <script defer src="./script.js"></script>
+        <title>Welcome to my CV page!</title>
+    </head>
+    <body>
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Tomáš Hečko</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#hobbies" class="nav__link">Hobbies</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact me</a></li>
+                        <li class="nav__item"><a href="./src/Tomas_Hecko_CV.pdf" class="nav__link" download>Download CV</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <section class="home" id="home">
+                <div class="home__container bd-grid">
+                    <h1 class="home__title"><span>A</span><br>HOJ :)</h1>
+
+                    <img src="./src/profil.png" alt="" class="home__img">
+                </div>
+            </section>
+
+            <section class="about section" id="about">
+                <h2 class="section-title">About me</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="./src/profil.png" alt="">
+                    </div>
+
+                    <div>
+                        <h2 class="about__subtitle">I am Tomáš Hečko</h2>
+                        <span class="about__profession">Full stack web developer looking for a job</span>
+                        <p class="about__text">
+                            Welcome to my personalized CV page!
+                            In this small project I want to show you my skills overall and also what I'm passionate about (apart from coding of course).
+                            I've always enjoyed working with computers in a wide range
+                            of ways (creating material, designing), as well as building them and learning how
+                            they operate. I enjoy problem-solving, critical thinking, and gaining knowledge of new technologies.
+                            I'm passionate about learning overall. I love to seek the challenge, overcome it and get better at it.
+                            I graduated from Teaching History and Ethics and got MA degree. I've always love to work with PC's but I decided to pursue
+                            teaching because that's also something I'm passionate about and at that time I was afraid of failing in maths (smile).
+                            The studies definitely brought me a lot of other useful skills
+                            which are transferable to any other field as well. I would love to become a web-developer!
+                        </p>
+                        <div class="about__social">
+                            <a href="https://www.linkedin.com/in/tomashecko/" class="about__social-icon"><i class='bx bxl-linkedin' ></i></a>
+                            <a href="https://github.com/TomTom258" class="about__social-icon"><i class='bx bxl-github' ></i></a>
+                            <a href="https://www.codewars.com/users/TomTom258" class="about__social-icon"><i class='bx bx-code-alt' ></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="skills section" id="skills">
+                <h2 class="section-title">My Current Skills</h2>
+
+                <div class="skills__container bd-grid">
+                    <div class="skills__box">
+                        <h3 class="skills__subtitle">Frontend</h3>
+                        <span class="skills__name">HTML</span>
+                        <span class="skills__name">CSS</span>
+                        <span class="skills__name">DOM</span>
+                        <span class="skills__name">Javascript</span>
+                        <span class="skills__name">Typescript</span>
+                        <span class="skills__name">React</span>
+                        <span class="skills__name">Context API</span>
+                        <span class="skills__name">Jest</span>
+                        
+                        <h3 class="skills__subtitle">Back-end</h3>
+                        <span class="skills__name">Node.js</span>
+                        <span class="skills__name">Express</span>
+                        <span class="skills__name">MySQL</span>
+                        <span class="skills__name">AWS</span>
+                        <span class="skills__name">Java</span>
+                        <span class="skills__name">Gradle</span>
+                        <span class="skills__name">Spring Boot</span>
+                        <span class="skills__name">Hibernate</span>
+                        <span class="skills__name">Mockito</span>
+                        <span class="skills__name">Thymeleaf</span>
+                        <span class="skills__name">Spring Security</span>
+
+                        <h3 class="skills__subtitle">Others</h3>
+                        <span class="skills__name">Git</span>
+                        <span class="skills__name">GitHub</span>
+                        <span class="skills__name">Jira</span>
+                        <span class="skills__name">Docker</span>
+                        <span class="skills__name">JWT</span>
+                    </div>
+                    <div class="skills__img">
+                        <img src="./src/skills.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <section class="hobbies section" id="hobbies">
+                <h2 class="section-title">Hobbies</h2>
+
+                <div class="hobbies__container bd-grid">
+                    <div class="hobbies__img">
+                        <img src="./src/hiking.jpg" alt="">
+
+                        <div class="hobbies__link">
+                            <a href="#" class="hobbies__link-name">I love to travel and especially to hike.</a>
+                            
+                        </div>
+                    </div>
+                    <div class="hobbies__img">
+                        <img src="./src/guitar.jpg" alt="">
+
+                        <div class="hobbies__link">
+                            <a href="#" class="hobbies__link-name">I have recently started to learn to play an electric guitar. It's a challenge but I love to do it.</a>
+                        </div>
+                    </div>
+                    <div class="hobbies__img">
+                        <img src="./src/motorsport.jpg" alt="">
+
+                        <div class="hobbies__link">
+                            <a href="#" class="hobbies__link-name">I'm big fan of motorsports of all kind. You name it.</a>
+                        </div>
+                    </div>
+                    <div class="hobbies__img">
+                        <img src="./src/cycling.jpg" alt="">
+
+                        <div class="hobbies__link">
+                            <a href="#" class="hobbies__link-name">Cycling plays an important role in my life aswell.</a>
+                        </div>
+                    </div>
+                    <div class="hobbies__img">
+                        <img src="./src/cooking.jpg" alt="">
+
+                        <div class="hobbies__link">
+                            <a href="#" class="hobbies__link-name">Not gonna lie I enjoy cooking food too.</a>
+                        </div>
+                    </div>
+                    <div class="hobbies__img">
+                        <img src="./src/enjoy.jpg" alt="">
+
+                        <div class="hobbies__link">
+                            <a href="#" class="hobbies__link-name">and enjoy my life overall.</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact me</h2>
+
+                <div class="contact__container bd-grid">
+                    <div class="contact__title">
+                        Did I catch your interest ? Don't hesitate and contact me!
+                    </div>
+                    <div class="contact__info"> 
+                        <h3 class="contact__subtitle">EMAIL</h3>
+                        <span class="contact__text">01tomas01@gmail.com</span>
+
+                        <h3 class="contact__subtitle">PHONE</h3>
+                        <span class="contact__text">+421 944 162 840</span>
+
+                        <h3 class="contact__subtitle">Location</h3>
+                        <span class="contact__text">Nové Zámky / Slovakia</span>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer section">
+            <div class="footer__container bd-grid">
+                <div class="footer__data">
+                    <h2 class="footer__title">Tomáš Hečko</h2>
+                    <p class="footer__text">My name is Tomáš Hečko and this is my personalized CV webpage.</p>
+                </div>
+
+                <div class="footer__data">
+                    <h2 class="footer__title">EXPLORE</h2>
+                    <ul>
+                        <li><a href="#home" class="footer__link">Home</a></li>
+                        <li><a href="#about" class="footer__link">About me</a></li>
+                        <li><a href="#skills" class="footer__link">Skills</a></li>
+                        <li><a href="#hobbies" class="footer__link">Hobbies</a></li>
+                        <li><a href="#Contact" class="footer__link">Contact me</a></li>
+                        <li><a href="./src/Tomas_Hecko_CV.pdf" class="footer__link" download>Download CV</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
